@@ -1,0 +1,7 @@
+{
+  "name": "callkeep-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
