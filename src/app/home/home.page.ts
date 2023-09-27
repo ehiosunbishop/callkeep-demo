@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
+import { CallService } from '../services/call.service';
 
 @Component({
   selector: 'app-home',
@@ -9,5 +10,9 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule],
 })
 export class HomePage {
-  constructor() {}
+  constructor(private callService: CallService) { }
+
+  registerVoIP() {
+    this.callService.regiserCallKit();
+  }
 }

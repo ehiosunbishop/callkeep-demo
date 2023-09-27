@@ -4,6 +4,9 @@
 *~
 *.sw[mnpcod]
 .tmp
+*.pem
+*.p12
+*.cer
 *.tmp
 *.tmp.*
 UserInterfaceState.xcuserstate
@@ -66,3 +69,4 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+onesignal.txt
