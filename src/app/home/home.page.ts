@@ -10,9 +10,9 @@ import { CallService } from '../services/call.service';
   imports: [IonicModule],
 })
 export class HomePage {
-  constructor(private callService: CallService) { }
+  constructor() { }
 
   registerVoIP() {
-    this.callService.regiserCallKit();
+
   }
 }
